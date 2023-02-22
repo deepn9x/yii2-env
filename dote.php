@@ -34,6 +34,7 @@ class dote
             $this->word = 'null';
             return $this->word;
         }
+        //Build by DEEPN9X
     }
 
     public function __toString()
