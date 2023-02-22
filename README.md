@@ -39,3 +39,11 @@ Once the extension is installed, simply use it in your code by  :
 
 ```php
 <?= \deepn9x\env\dote($key); ?>```
+
+or add to web.php
+in components 
+```php
+'dotenv' => [
+  'class' => deepn9x\env\dote::class
+],
+```
