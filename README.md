@@ -48,3 +48,8 @@ in components
   'class' => deepn9x\env\dote::class
 ],
 ```
+
+
+Using examples
+$example_1 = Yii::$app->dotenv->key("KEY");
+$example_2 = new dote("ISP_KEY");
