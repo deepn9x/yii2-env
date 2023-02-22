@@ -18,10 +18,12 @@ class dote
         $list = [];
 
         foreach ($env as $item){
-            $env_explode = explode('=', $item);
-            $list[$env_explode[0]] = $env_explode[1];
-        }
+            if($item != ''){
+                $env_explode = explode('=', $item);
+                $list[$env_explode[0]] = $env_explode[1];
+            }
 
+        }
         if(isset($list[$key])){
             $word = $list[$key];
             $this->word = $word;
@@ -32,8 +34,6 @@ class dote
             $this->word = 'null';
             return $this->word;
         }
-
-
     }
 
     public function __toString()
