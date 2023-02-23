@@ -45,11 +45,11 @@ or add to web.php
 in components
 ```
 'dotenv' => [
-  'class' => deepn9x\env\dote::class
+  'class' => deepn9x\env\dotenv::class
 ],
 ```
 
 
 Using examples
 $example_1 = Yii::$app->dotenv->key("KEY");
-$example_2 = new dote("ISP_KEY");
+$example_2 = new dotenv("ISP_KEY");
