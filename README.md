@@ -38,7 +38,7 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \deepn9x\env\dote($key); ?>```
+<?= \deepn9x\env\dotenv($key); ?>```
 
 
 or add to web.php
