@@ -2,6 +2,8 @@
 
 namespace deepn9x\env;
 
+use yii\helpers\FileHelper;
+
 /**
  * This is just an example.
  * Author: DEEPN9X
@@ -14,6 +16,11 @@ class dotenv
     public function __construct($key)
     {
         $envDir = \Yii::getAlias('@app') . '/config/.env';
+        $find = file_exists($envDir);
+        if(!$find){
+            fopen($envDir, 'w');
+            file_put_contents($envDir, "test=testEnv");
+        }
         $envDir = file_get_contents($envDir);
         $env = explode(PHP_EOL, $envDir);
         $list = [];
