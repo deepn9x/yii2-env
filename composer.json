@@ -3,7 +3,6 @@
     "description": "DOT-ENV",
     "type": "yii2-extension",
     "minimum-stability": "stable",
-    "version": "dev",
     "keywords": [
         "Yii2 .env class",
         "yii2",
