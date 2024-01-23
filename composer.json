@@ -2,7 +2,12 @@
     "name": "deepn9x/yii2-env",
     "description": "DOT-ENV",
     "type": "yii2-extension",
-    "keywords": ["Yii2 .env class"],
+    "keywords": [
+        "Yii2 .env class",
+        "yii2",
+        "extension",
+        "plugin"
+    ],
     "license": "MIT",
     "authors": [
         {
