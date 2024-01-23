@@ -2,8 +2,6 @@
     "name": "deepn9x/yii2-env",
     "description": "DOT-ENV",
     "type": "yii2-extension",
-    "minimum-stability": "stable",
-    "stability": "stable",
     "keywords": ["Yii2 .env class"],
     "license": "MIT",
     "authors": [
