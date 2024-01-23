@@ -23,10 +23,5 @@
         "psr-4": {
             "deepn9x\\env\\": ""
         }
-    },
-    "extra": {
-        "branch-alias": {
-              "stable": "1.0.0-stable"
-        }
     }
 }
