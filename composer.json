@@ -2,6 +2,7 @@
     "name": "deepn9x/yii2-env",
     "description": "DOT-ENV",
     "type": "yii2-extension",
+    "minimum-stability": "dev",
     "keywords": [
         "Yii2 .env class",
         "yii2",
