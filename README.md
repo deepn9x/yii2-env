@@ -20,13 +20,13 @@ First add link to composer.json
 Either run
 
 ```
-composer require deepn9x/yii2-env "dev-main"
+composer require deepn9x/yii2-env
 ```
 
 or add
 
 ```
-"deepn9x/yii2-env": "dev-main"
+"deepn9x/yii2-env": "1.0"
 ```
 
 to the require section of your `composer.json` file.
